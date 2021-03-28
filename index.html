@@ -30,10 +30,10 @@ function mostrar (){
   var comentario = window.document.querySelector("div#feedback");
   var bench = Number(score.value);
   if(bench >= 30000){
-    comentario.innerHTML = "<font color = green>Pontuação show de bola! Estralou no alto desempenho. Vale muito a pena usar esse processador (Ainda mais com uma placa de vídeo forte).</font>"
+    comentario.innerHTML = "<font color = lime>Pontuação show de bola! Estralou no alto desempenho. Vale muito a pena usar esse processador (Ainda mais com uma placa de vídeo forte).</font>"
   }else{
     if (bench >= 17000){
-      comentario.innerHTML = "<font color = lime>É um processador de alto desempenho. Para aplicativos e jogos pesados ele funciona muito bem (placa de vídeo conta muito também)</font>"
+      comentario.innerHTML = "<font color = lightgreen>É um processador de alto desempenho. Para aplicativos e jogos pesados ele funciona muito bem (placa de vídeo conta muito também)</font>"
     }else{
       if(bench>=9000){
         comentario.innerHTML = "<font color = yellowgreen>É uma pontuação boa, de médio desempenho. É um processador muito bom, vale a pena usar. Dá para tarefas básicas, intermediárias e até jogar alguns jogos. Para ter um bom desempenho, você também precisa ter muita memória RAM, um SSD e uma placa de vídeo.</font>"
